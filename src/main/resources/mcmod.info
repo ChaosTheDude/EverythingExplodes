@@ -1,0 +1,16 @@
+[
+{
+  "modid": "EverythingExplodes",
+  "name": "Everything Explodes",
+  "description": "Makes shit blow up.",
+  "version": "1.0.0",
+  "mcversion": "1.10.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["ChaosTheDude"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
