@@ -19,25 +19,25 @@ public class ExplosionModes {
 	
 	public static final List<ExplosionMode> REGISTRY = new ArrayList<ExplosionMode>();
 
-	public static final ExplosionMode DISABLED = new ExplosionMode("string.EverythingExplodes.disabled.name", "string.EverythingExplodes.disabled.desc") {
+	public static final ExplosionMode DISABLED = new ExplosionMode("string.everythingexplodes.disabled.name", "string.everythingexplodes.disabled.desc") {
 		@Override
 		public String getLocalizedDescription() {
 			return Util.localize(unlocDescription, EverythingExplodes.toggleExplosionMode.getDisplayName());
 		}
 	};
 
-	public static final ExplosionMode GROUND = new ExplosionMode("string.EverythingExplodes.onGround.name", "string.EverythingExplodes.onGround.desc") {
+	public static final ExplosionMode GROUND = new ExplosionMode("string.everythingexplodes.onGround.name", "string.everythingexplodes.onGround.desc") {
 		@Override
 		public boolean shouldExplode(EntityPlayer player) {
 			return player.onGround;
 		}
 	};
 
-	public static final ExplosionMode COLLIDE = new ExplosionMode("string.EverythingExplodes.onCollide.name", "string.EverythingExplodes.onCollide.desc");
+	public static final ExplosionMode COLLIDE = new ExplosionMode("string.everythingexplodes.onCollide.name", "string.everythingexplodes.onCollide.desc");
 
-	public static final ExplosionMode INTERACT = new ExplosionMode("string.EverythingExplodes.onInteract.name", "string.EverythingExplodes.onInteract.desc");
+	public static final ExplosionMode INTERACT = new ExplosionMode("string.everythingexplodes.onInteract.name", "string.everythingexplodes.onInteract.desc");
 
-	public static final ExplosionMode ALWAYS = new ExplosionMode("string.EverythingExplodes.always.name", "string.EverythingExplodes.always.desc") {
+	public static final ExplosionMode ALWAYS = new ExplosionMode("string.everythingexplodes.always.name", "string.everythingexplodes.always.desc") {
 		@Override
 		public boolean shouldExplode(EntityPlayer player) {
 			return true;
@@ -138,7 +138,7 @@ public class ExplosionModes {
 		}
 
 		public static String getExplosionModeString() {
-			return Util.localize("string.EverythingExplodes.explosionMode.name") +  ": " + getExplosionMode().getLocalizedName();
+			return Util.localize("string.everythingexplodes.explosionMode.name") +  ": " + getExplosionMode().getLocalizedName();
 		}
 
 	}

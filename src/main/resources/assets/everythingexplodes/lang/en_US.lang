@@ -5,16 +5,16 @@
 keybind.cycleExplosionMode=Cycle Explosion Mode
 
 # STRINGS - NAMES
-string.EverythingExplodes.explosionMode.name=Explosion Mode
-string.EverythingExplodes.disabled.name=Disabled
-string.EverythingExplodes.onGround.name=Better Than Auto-Jump
-string.EverythingExplodes.onCollide.name=Kamikaze
-string.EverythingExplodes.onInteract.name=The Hand Grenade
-string.EverythingExplodes.always.name=Insanity
+string.everythingexplodes.explosionMode.name=Explosion Mode
+string.everythingexplodes.disabled.name=Disabled
+string.everythingexplodes.onGround.name=Better Than Auto-Jump
+string.everythingexplodes.onCollide.name=Kamikaze
+string.everythingexplodes.onInteract.name=The Hand Grenade
+string.everythingexplodes.always.name=Insanity
 
 # STRINGS - DESCS
-string.EverythingExplodes.disabled.desc=Press %s to switch explosion modes. Press while sneaking to cycle backward.
-string.EverythingExplodes.onGround.desc=Explode when you touch the ground.
-string.EverythingExplodes.onCollide.desc=Explode when you collide with an entity.
-string.EverythingExplodes.onInteract.desc=Explode when you right-click.
-string.EverythingExplodes.always.desc=Yeah.
+string.everythingexplodes.disabled.desc=Press %s to switch explosion modes. Press while sneaking to cycle backward.
+string.everythingexplodes.onGround.desc=Explode when you touch the ground.
+string.everythingexplodes.onCollide.desc=Explode when you collide with an entity.
+string.everythingexplodes.onInteract.desc=Explode when you right-click.
+string.everythingexplodes.always.desc=Yeah.

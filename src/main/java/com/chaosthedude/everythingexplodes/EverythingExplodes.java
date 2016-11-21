@@ -14,11 +14,11 @@ import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = EverythingExplodes.MODID, name = EverythingExplodes.NAME, version = EverythingExplodes.VERSION, acceptedMinecraftVersions = "[1.10,1.10.2]")
+@Mod(modid = EverythingExplodes.MODID, name = EverythingExplodes.NAME, version = EverythingExplodes.VERSION, acceptedMinecraftVersions = "[1.11]")
 
 public class EverythingExplodes {
 
-	public static final String MODID = "EverythingExplodes";
+	public static final String MODID = "everythingexplodes";
 	public static final String NAME = "Everything Explodes";
 	public static final String VERSION = "1.0.0";
 

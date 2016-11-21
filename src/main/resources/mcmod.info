@@ -1,10 +1,10 @@
 [
 {
-  "modid": "EverythingExplodes",
+  "modid": "everythingexplodes",
   "name": "Everything Explodes",
   "description": "Makes shit blow up.",
-  "version": "1.0.0",
-  "mcversion": "1.10.2",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
   "authorList": ["ChaosTheDude"],
